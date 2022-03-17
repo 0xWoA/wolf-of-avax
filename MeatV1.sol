@@ -27,6 +27,7 @@ contract MeetV1 is ERC20, Authorizable {
     // Moved "SKIP_COOLDOWN_BASE" to HowlV1 contract
     // Moved "SKIP_COOLDOWN_BASE_FACTOR" to HowlV1 contract
 
+
     // meet mint event
     event Minted(address owner, uint256 numberOfMeet);
     event Burned(address owner, uint256 numberOfMeet);

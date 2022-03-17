@@ -47,6 +47,7 @@ contract WolfV1 is ERC721Upgradeable {
         bool forSale;
         uint256 kg;
     }
+    
 
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;

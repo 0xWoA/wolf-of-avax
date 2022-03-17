@@ -41,6 +41,7 @@ contract HowlV1 is ERC20, Authorizable {
     // unit48 (0 - 281,474,976,710,656)
     // uint256 (0 - 1.157920892e77)
 
+
     /**
      * Stores staked wolf fields (=> 152 <= stored in order of size for optimal packing!)
      */

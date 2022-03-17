@@ -23,5 +23,4 @@ contract Authorizable is Ownable {
         require(_toRemove != msg.sender);
         authorized[_toRemove] = false;
     }
-
 }
